@@ -25,5 +25,9 @@
 </table>
 
 <br>
-
 <%= link_to 'New Available time', new_available_time_path %>
+
+
+<%= week_calendar number_of_weeks: 1 do |date| %>
+  Open
+<% end %>
